@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8696021149884E0007A4896 /* libopencv_core.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8696020149884E0007A4896 /* libopencv_core.2.3.1.dylib */; };
+		F8696023149884F0007A4896 /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8696022149884F0007A4896 /* libopencv_highgui.dylib */; };
+		F8696025149884F9007A4896 /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8696024149884F9007A4896 /* libopencv_imgproc.dylib */; };
+		F8AEC701149B2D57007A9F52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AEC6FF149B2D57007A9F52 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8ABE14B14947BD9007B7384 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8696020149884E0007A4896 /* libopencv_core.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.3.1.dylib; path = ../../../../../opt/local/lib/libopencv_core.2.3.1.dylib; sourceTree = "<group>"; };
+		F8696022149884F0007A4896 /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = usr/local/lib/libopencv_highgui.dylib; sourceTree = SDKROOT; };
+		F8696024149884F9007A4896 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = usr/local/lib/libopencv_imgproc.dylib; sourceTree = SDKROOT; };
+		F8ABE14D14947BD9007B7384 /* T-Rex Vision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "T-Rex Vision"; path = "/Users/nattybumppo/OpenCVTest/for website/build/Release/T-Rex Vision"; sourceTree = "<absolute>"; };
+		F8AEC6FF149B2D57007A9F52 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "T-Rex Vision/main.cpp"; sourceTree = SOURCE_ROOT; };
+		F8AEC700149B2D57007A9F52 /* T-Rex Vision.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = "T-Rex Vision.1"; path = "T-Rex Vision/T-Rex Vision.1"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8ABE14A14947BD9007B7384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8696025149884F9007A4896 /* libopencv_imgproc.dylib in Frameworks */,
+				F8696023149884F0007A4896 /* libopencv_highgui.dylib in Frameworks */,
+				F8696021149884E0007A4896 /* libopencv_core.2.3.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8ABE14214947BD9007B7384 = {
+			isa = PBXGroup;
+			children = (
+				F8696024149884F9007A4896 /* libopencv_imgproc.dylib */,
+				F8696022149884F0007A4896 /* libopencv_highgui.dylib */,
+				F8696020149884E0007A4896 /* libopencv_core.2.3.1.dylib */,
+				F8ABE15014947BD9007B7384 /* T-Rex Vision */,
+				F8AEC704149B2DC2007A9F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8ABE15014947BD9007B7384 /* T-Rex Vision */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEC6FF149B2D57007A9F52 /* main.cpp */,
+				F8AEC700149B2D57007A9F52 /* T-Rex Vision.1 */,
+			);
+			name = "T-Rex Vision";
+			path = "Edge Display";
+			sourceTree = "<group>";
+		};
+		F8AEC704149B2DC2007A9F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8ABE14C14947BD9007B7384 /* T-Rex Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8ABE15714947BD9007B7384 /* Build configuration list for PBXNativeTarget "T-Rex Vision" */;
+			buildPhases = (
+				F8ABE14914947BD9007B7384 /* Sources */,
+				F8ABE14A14947BD9007B7384 /* Frameworks */,
+				F8ABE14B14947BD9007B7384 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T-Rex Vision";
+			productName = "Edge Display";
+			productReference = F8ABE14D14947BD9007B7384 /* T-Rex Vision */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8ABE14414947BD9007B7384 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F8ABE14714947BD9007B7384 /* Build configuration list for PBXProject "T-Rex Vision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8ABE14214947BD9007B7384;
+			productRefGroup = F8ABE14214947BD9007B7384;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8ABE14C14947BD9007B7384 /* T-Rex Vision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8ABE14914947BD9007B7384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AEC701149B2D57007A9F52 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8ABE15514947BD9007B7384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8ABE15614947BD9007B7384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8ABE15814947BD9007B7384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"@executable_path",
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "T-Rex Vision";
+			};
+			name = Debug;
+		};
+		F8ABE15914947BD9007B7384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"@executable_path",
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "T-Rex Vision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8ABE14714947BD9007B7384 /* Build configuration list for PBXProject "T-Rex Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ABE15514947BD9007B7384 /* Debug */,
+				F8ABE15614947BD9007B7384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8ABE15714947BD9007B7384 /* Build configuration list for PBXNativeTarget "T-Rex Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ABE15814947BD9007B7384 /* Debug */,
+				F8ABE15914947BD9007B7384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8ABE14414947BD9007B7384 /* Project object */;
+}
