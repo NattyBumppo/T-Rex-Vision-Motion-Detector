@@ -1,8 +1,10 @@
 # Summary
 
-This is an application that takes an input image and identifies human faces within the image. The application relies on a training dataset of faces and non-faces, and uses this data to compute Haar-like features as described by Viola and Jones in [this paper](http://research.microsoft.com/en-us/um/people/viola/Pubs/Detect/violaJones_CVPR2001.pdf). After these features have been computed, the application uses AdaBoost to compute a classifier which is then applied to the test image to detect faces.
+This is a simple application that takes a video stream (e.g., from a webcam) as input and outputs any pixels that have changed significantly over the past several frames, resulting in a sort of "T-Rex vision"-style motion detector (as inspired by Jurassic Park).
 
-This project was written in C++, using the [Qt](http://qt.nokia.com/products/) framework. [Larry Zitnick](http://research.microsoft.com/en-us/people/larryz/) at Microsoft Research wrote the majority of the UI code and the high-level architecture, and I wrote the majority of the machine learning and detection code.
+Image data is stored in a ring buffer, and when the standard deviation for historical intensity values for a pixel exceeds the draw threshold, that pixel is assumed to have changed significantly and is drawn. The ring buffer size and draw threshold are adjustable.
+
+This project was written in C++, using the [OpenCV](http://opencv.willowgarage.com/wiki/) library. This project requires the OpenCV library to run.
 
 # Credits
 
